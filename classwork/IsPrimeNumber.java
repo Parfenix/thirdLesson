@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class Number {
+public class IsPrimeNumber {
     public static String isPrime(int number) {
         int varIntCurrentNumber = number;
-        String result;
 
         if (varIntCurrentNumber == 1) {
             return "no";
@@ -31,7 +30,7 @@ public class Number {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a natural number: ");
         int varIntCurrentNumber = scanner.nextInt();
-        System.out.println(Number.isPrime(varIntCurrentNumber));
+        System.out.println(IsPrimeNumber.isPrime(varIntCurrentNumber));
     }
 
 }
